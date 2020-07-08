@@ -93,6 +93,10 @@ class Solution {
             return 0;
         }
 
+        if($n == 1) {
+            return 1;
+        }
+
         $first = 1;
         $second = 2;
 
