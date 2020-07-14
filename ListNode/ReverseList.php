@@ -11,6 +11,7 @@
 class Solution {
 
     /**
+     * @desc µü´ú
      * @param ListNode $head
      * @return ListNode
      */
@@ -28,5 +29,21 @@ class Solution {
             $cur = $next;
         }
         return $reverseHead;
+    }
+
+    /**
+     * @desc µÝ¹é
+     * @param $head
+     * @return mixed
+     */
+    function reverseList2($head)
+    {
+        if ($head == null || $head->next == null) {
+            return $head;
+        }
+        $res = $this->reverseList2($head->next);
+        $head->next->next = $head;
+        $head->next = null;
+        return $res;
     }
 }
