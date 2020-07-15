@@ -8,14 +8,14 @@
  *     function __construct($val) { $this->val = $val; }
  * }
  */
-class Solution {
+class ReverseList {
 
     /**
      * @desc µü´ú
      * @param ListNode $head
      * @return ListNode
      */
-    function reverseList($head) {
+    public function reverseList1($head) {
         $reverseHead = $pre = null;
         $cur = $head;
 
