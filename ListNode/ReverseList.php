@@ -11,7 +11,7 @@
 class ReverseList {
 
     /**
-     * @desc µü´ú
+     * @desc è¿­ä»£
      * @param ListNode $head
      * @return ListNode
      */
@@ -32,7 +32,7 @@ class ReverseList {
     }
 
     /**
-     * @desc µÝ¹é
+     * @desc é€’å½’
      * @param $head
      * @return mixed
      */
