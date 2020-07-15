@@ -16,7 +16,7 @@
  *
  */
 
-class Solution {
+class ClimbStairs {
 
     /**
      * ¶¯Ì¬¹æ»®

@@ -19,13 +19,16 @@
  * @param Integer $val
  * @return Integer
  */
-function removeElement(&$nums, $val) {
-    foreach($nums as $k => $v) {
-        if($v == $val){
-            unset($nums[$k]);
+class RemoveElementR
+{
+    function removeElement(&$nums, $val) {
+        foreach($nums as $k => $v) {
+            if($v == $val){
+                unset($nums[$k]);
+            }
         }
+        return count($nums);
     }
-    return count($nums);
 }
 
 // 怀疑这个解法是不是不是出题者想要的，这个题考点在哪？

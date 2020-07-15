@@ -16,7 +16,7 @@
  *
  */
 
-class Solution {
+class DivingBoard {
 
     function divingBoard($shorter, $longer, $k) {
         $arr = [];
