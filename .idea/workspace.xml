@@ -2,7 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="83a9c4ca-f16a-40c6-bcdd-ff1005eee124" name="Default" comment="">
-      <change beforePath="" afterPath="$PROJECT_DIR$/ListNode/GetKthFromEnd.php" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/ListNode/ReversePrint.php" />
       <change beforePath="$PROJECT_DIR$/.idea/encodings.xml" afterPath="$PROJECT_DIR$/.idea/encodings.xml" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
@@ -15,11 +15,11 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="GetKthFromEnd.php" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/ListNode/GetKthFromEnd.php">
+      <file leaf-file-name="ReversePrint.php" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/ListNode/ReversePrint.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="463">
-              <caret line="38" column="11" lean-forward="false" selection-start-line="38" selection-start-column="11" selection-end-line="38" selection-end-column="11" />
+            <state relative-caret-position="404">
+              <caret line="39" column="5" lean-forward="false" selection-start-line="39" selection-start-column="5" selection-end-line="39" selection-end-column="5" />
               <folding />
             </state>
           </provider>
@@ -45,6 +45,7 @@
         <option value="$PROJECT_DIR$/ListNode/DeleteNode1.php" />
         <option value="$PROJECT_DIR$/ListNode/DeleteDuplicates.php" />
         <option value="$PROJECT_DIR$/ListNode/GetKthFromEnd.php" />
+        <option value="$PROJECT_DIR$/ListNode/ReversePrint.php" />
       </list>
     </option>
   </component>
@@ -152,12 +153,12 @@
       <workItem from="1594175821539" duration="2332000" />
       <workItem from="1594196113989" duration="9000" />
       <workItem from="1594199021838" duration="1934000" />
-      <workItem from="1594211243017" duration="10172000" />
+      <workItem from="1594211243017" duration="10577000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="14447000" />
+    <option name="totallyTimeSpent" value="14852000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="79" y="23" width="1256" height="832" extended-state="0" />
@@ -258,14 +259,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/ListNode/KthToLast.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="114">
-          <caret line="29" column="20" lean-forward="false" selection-start-line="29" selection-start-column="20" selection-end-line="29" selection-end-column="20" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/ListNode/DeleteNode.php">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="115">
@@ -292,8 +285,24 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/ListNode/GetKthFromEnd.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="463">
-          <caret line="38" column="11" lean-forward="false" selection-start-line="38" selection-start-column="11" selection-end-line="38" selection-end-column="11" />
+        <state relative-caret-position="391">
+          <caret line="28" column="9" lean-forward="true" selection-start-line="28" selection-start-column="9" selection-end-line="28" selection-end-column="9" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ListNode/KthToLast.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-55">
+          <caret line="29" column="20" lean-forward="false" selection-start-line="29" selection-start-column="20" selection-end-line="29" selection-end-column="20" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ListNode/ReversePrint.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="404">
+          <caret line="39" column="5" lean-forward="false" selection-start-line="39" selection-start-column="5" selection-end-line="39" selection-end-column="5" />
           <folding />
         </state>
       </provider>
