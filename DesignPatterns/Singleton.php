@@ -8,8 +8,10 @@
 
 class Singleton
 {
+    // 定义静态私有变量保存类的实例
     static private $instance;
 
+    // 私有构造，禁止调用
     private function __construct() {}
 
     private function __clone() {}
