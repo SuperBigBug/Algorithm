@@ -26,7 +26,7 @@ class InterfaceAndClass
     // 接口中的方法只能是public，抽象类中的可以通过private public protected等修饰
 
 
-    // 接口 类中必须实现接口中的所有方法
+    // 接口 类中必须实现接口中的所有方法, 接口中的方法必须都是公有的，不能是private或是protected
     // 抽象类 抽象类不能被实例化 抽象类中不必须有抽象方法，抽象类中的抽象方法必须被子类全部实现，抽象类不可以将抽象方法定义为私有的private
 
 
@@ -116,5 +116,28 @@ class NameTest extends TestAbstractClass
     public function getSex($u_id)
     {
         return 'girl';
+    }
+}
+
+interface Car
+{
+    public function getCarName();
+}
+
+interface Road
+{
+    public function getLength();
+}
+
+class AAA implements Car, Road
+{
+    public function getCarName()
+    {
+        // TODO: Implement getCarName() method.
+    }
+
+    public function getLength()
+    {
+        // TODO: Implement getLength() method.
     }
 }
