@@ -16,7 +16,7 @@ class MaxDepth
         }
 
         $depth = 1;
-        // Ö»ÓÐÒ»¸ö¸ù½Úµã
+        // å¶å­èŠ‚ç‚¹
         if ($root->left == null && $root->right == null) {
             return $depth;
         }
@@ -24,7 +24,7 @@ class MaxDepth
         $left_max_depth = $this->treeMaxDepth($root->left);
         $right_max_depth = $this->treeMaxDepth($root->right);
 
-        // »ñÈ¡×î´óÉî¶È
+        // èŽ·å–æœ€å¤§æ·±åº¦
         $max_depth = $left_max_depth >= $right_max_depth ? $left_max_depth + $depth : $right_max_depth + $depth;
 
         return $max_depth;
