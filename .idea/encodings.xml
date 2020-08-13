@@ -11,7 +11,9 @@
     <file url="file://$PROJECT_DIR$/ListNode/MiddleNode.php" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/ListNode/ReverseList.php" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/ListNode/ReversePrint.php" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/Mysql/Index.php" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/Mysql/组合两个表.php" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/Redis/RedisBase.php" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/Sort/HalfFind.php" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/Sort/QuickSort.php" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/part1/DivingBoard.php" charset="UTF-8" />
