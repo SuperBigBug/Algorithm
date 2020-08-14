@@ -55,6 +55,10 @@ class Http
     //  504 代理服务器未及时从远端服务器获取请求
     //  505 故武器不支持请求的http协议版本
 
+    // http和https的区别
+    //   http明文传输，如果截取了报文就能直接看懂，https安全套接字层超文本传输协议，https在http的基础上添加了ssl/tls协议，
+    //   使用证书验证身份，并对传输的数据进行加密
+
     // 连练手写个单例模式
     static private $instance;
 
