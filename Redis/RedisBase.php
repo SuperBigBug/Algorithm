@@ -17,11 +17,11 @@ class RedisBase
      * redis的hash底层实现: 所有元素的key 和 value长度都小于64byte, 使用ziplist, 否则使用hashTable
 
     1、redis基本类型 5个基础类型   HyperLogLog、Geo、Pub/Sub   BitMap(支持按bit存储，可以实现BloomFilter)等(加分)
-    string : 用作缓存；做计数器；set get mget（获取多个key）
-    hash：使用场景较少；可以存储对象(但是不能嵌套对象，使用情况比较单一，使用场景较少)(hmset、hget、hgetall、hdel、hexists、)
-    list：可以用于做粉丝列表、评论列表等，还可以做简单的队列，lpush && rpop    LPUSH、LPOP(BLPOP)、LRANGE key start end
-    set：无序合集，自动去重，获取两个集合的交集(sinter key1, key2)、差集(sdiff key1, key2)啥的效率不错(sadd  scard  smembers key)
-    zset: 有序集合，自动根据分数排序，如排行榜，按点赞数、浏览量等，根据分数默认排序（zadd、zrange）
+        string : 用作缓存；做计数器；set get mget（获取多个key）
+        hash：使用场景较少；可以存储对象(但是不能嵌套对象，使用情况比较单一，使用场景较少)(hmset、hget、hgetall、hdel、hexists、)
+        list：可以用于做粉丝列表、评论列表等，还可以做简单的队列，lpush && rpop    LPUSH、LPOP(BLPOP)、LRANGE key start end
+        set：无序合集，自动去重，获取两个集合的交集(sinter key1, key2)、差集(sdiff key1, key2)啥的效率不错(sadd  scard  smembers key)
+        zset: 有序集合，自动根据分数排序，如排行榜，按点赞数、浏览量等，根据分数默认排序（zadd、zrange）
     2、redis  和mc的区别
     mc : 缺点
     // key不能超过256字节，key的最大失效时间是30天
@@ -59,11 +59,12 @@ class RedisBase
 
     缓存击穿：某一个key是热点的key，承载着很大的请求，这个key失效了，然后大量的请求打到db上，gg
     // 解决：永不过期？
+     * 当缓存失效时，不是立即去加载数据库的数据，而是通过例如setnx这样获取到锁之后去加载数据，然后重新设置缓存
 
     9、redis为什么这么快？
     // 官方100000+qps
     完全基于内存，绝大部分请求是纯内存操作，SO fast
-    不存在多进程或是线程的切换消耗cpu;
+    不存在多进程或是线程的上下文切换消耗cpu;
     不存在加锁释放锁的操作，也不存在死锁而导致的性能消耗
     什么多路I/o, 非阻塞io，sorry， 不懂
 
