@@ -2,9 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="83a9c4ca-f16a-40c6-bcdd-ff1005eee124" name="Default" comment="">
-      <change afterPath="$PROJECT_DIR$/Http/TcpIp.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Linux/Linux.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Redis/RedisBase.php" beforeDir="false" afterPath="$PROJECT_DIR$/Redis/RedisBase.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Mysql/Index.php" beforeDir="false" afterPath="$PROJECT_DIR$/Mysql/Index.php" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -18,6 +18,7 @@
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+    <option name="UPDATE_TYPE" value="MERGE" />
   </component>
   <component name="JsFlowSettings">
     <service-enabled>true</service-enabled>
@@ -93,10 +94,18 @@
     <option name="version" value="1" />
   </component>
   <component name="WindowStateProjectService">
+    <state x="1075" y="626" key="NewPhpFileDialog" timestamp="1597416140690">
+      <screen x="0" y="0" width="2560" height="1440" />
+    </state>
+    <state x="1075" y="626" key="NewPhpFileDialog/0.0.2560.1440@0.0.2560.1440" timestamp="1597416140690" />
     <state x="680" y="277" key="SettingsEditor" timestamp="1597414320806">
       <screen x="0" y="0" width="2560" height="1440" />
     </state>
     <state x="680" y="277" key="SettingsEditor/0.0.2560.1440@0.0.2560.1440" timestamp="1597414320806" />
+    <state x="1052" y="615" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2" timestamp="1597416325999">
+      <screen x="0" y="0" width="2560" height="1440" />
+    </state>
+    <state x="1052" y="615" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2/0.0.2560.1440@0.0.2560.1440" timestamp="1597416325999" />
     <state x="852" y="336" key="run.anything.popup" timestamp="1597413831021">
       <screen x="0" y="0" width="2560" height="1440" />
     </state>
