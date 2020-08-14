@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="83a9c4ca-f16a-40c6-bcdd-ff1005eee124" name="Default" comment="Linux蝉常用命令 第一版">
-      <change afterPath="$PROJECT_DIR$/Leetcode/TwoSum.php" afterDir="false" />
+    <list default="true" id="83a9c4ca-f16a-40c6-bcdd-ff1005eee124" name="Default" comment="Leetcode第一题">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/DesignPatterns/Factory.php" beforeDir="false" afterPath="$PROJECT_DIR$/DesignPatterns/Factory.php" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -108,7 +108,21 @@
       <option name="project" value="LOCAL" />
       <updated>1597417399621</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="Leetcode第一题">
+      <created>1597417984004</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1597417984004</updated>
+    </task>
+    <task id="LOCAL-00005" summary="Leetcode第一题">
+      <created>1597418004129</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1597418004129</updated>
+    </task>
+    <option name="localTasksCounter" value="6" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -117,13 +131,18 @@
   <component name="VcsManagerConfiguration">
     <MESSAGE value="完善mysql" />
     <MESSAGE value="Linux蝉常用命令 第一版" />
-    <option name="LAST_COMMIT_MESSAGE" value="Linux蝉常用命令 第一版" />
+    <MESSAGE value="Leetcode第一题" />
+    <option name="LAST_COMMIT_MESSAGE" value="Leetcode第一题" />
   </component>
   <component name="WindowStateProjectService">
-    <state x="854" y="245" key="CommitChangelistDialog2" timestamp="1597417996536">
+    <state x="772" y="293" key="#Notifications" timestamp="1597418059941">
       <screen x="0" y="0" width="2560" height="1440" />
     </state>
-    <state x="854" y="245" key="CommitChangelistDialog2/0.0.2560.1440@0.0.2560.1440" timestamp="1597417996536" />
+    <state x="772" y="293" key="#Notifications/0.0.2560.1440@0.0.2560.1440" timestamp="1597418059941" />
+    <state x="854" y="245" key="CommitChangelistDialog2" timestamp="1597418079029">
+      <screen x="0" y="0" width="2560" height="1440" />
+    </state>
+    <state x="854" y="245" key="CommitChangelistDialog2/0.0.2560.1440@0.0.2560.1440" timestamp="1597418079029" />
     <state x="1075" y="626" key="NewPhpFileDialog" timestamp="1597417560511">
       <screen x="0" y="0" width="2560" height="1440" />
     </state>
