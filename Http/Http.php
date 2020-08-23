@@ -9,57 +9,57 @@
 class Http
 {
 
-    // httpÇëÇó±¨ÎÄ½á¹¹  ÇëÇóÐÐ ÇëÇóÍ· ¿ÕÐÐ ÇëÇóÌå
+    // httpè¯·æ±‚æŠ¥æ–‡ç»“æž„  è¯·æ±‚è¡Œ è¯·æ±‚å¤´ ç©ºè¡Œ è¯·æ±‚ä½“
 
-    // ÇëÇóÐÐ :  ÇëÇó·½Ê½GET¡¢POST¡¢Delete   ÇëÇóµØÖ·    http°æ±¾ ¿Õ¸ñ·Ö¿ª
+    // è¯·æ±‚è¡Œ :  è¯·æ±‚æ–¹å¼GETã€POSTã€Delete   è¯·æ±‚åœ°å€    httpç‰ˆæœ¬ ç©ºæ ¼åˆ†å¼€
 
-    // ÇëÇóÍ· :
-    //    Host : ÇëÇóÖ÷»úÃû
-    //    Date : ÏûÏ¢²úÉúÈÕÆÚ
-    //    User-Agent : ·¢ËÍÇëÇóä¯ÀÀÆ÷µÄÀàÐÍ¡¢²Ù×÷ÏµÍ³µÄÐÅÏ¢
-    //    Accept : ¿Í»§¶Ë¿ÉÊ¶±ðµÄÄÚÈÝÀàÐÍ
-    //    Accept-Encoding : ¿Í»§¶Ë¿ÉÒÔÊ¶±ðµÄ±àÂë
-    //    Accept-Language : ¿Í»§¶Ë(ä¯ÀÀÆ÷)Ö§³ÖµÄÓïÑÔÀàÐÍ
-    //    Connection : ¿Í»§¶Ë/·þÎñÆ÷Á¬½ÓµÄÒ»Ð©Ñ¡Ïî£¬Èç±£³ÖÁ¬½Ó: keep-alive
-    //    Cookie : ¿Í»§¶ËÍ¨¹ý¸ÃcookieÏò·þÎñÆ÷´øËÍÊý¾Ý
+    // è¯·æ±‚å¤´ :
+    //    Host : è¯·æ±‚ä¸»æœºå
+    //    Date : æ¶ˆæ¯äº§ç”Ÿæ—¥æœŸ
+    //    User-Agent : å‘é€è¯·æ±‚æµè§ˆå™¨çš„ç±»åž‹ã€æ“ä½œç³»ç»Ÿçš„ä¿¡æ¯
+    //    Accept : å®¢æˆ·ç«¯å¯è¯†åˆ«çš„å†…å®¹ç±»åž‹
+    //    Accept-Encoding : å®¢æˆ·ç«¯å¯ä»¥è¯†åˆ«çš„ç¼–ç 
+    //    Accept-Language : å®¢æˆ·ç«¯(æµè§ˆå™¨)æ”¯æŒçš„è¯­è¨€ç±»åž‹
+    //    Connection : å®¢æˆ·ç«¯/æœåŠ¡å™¨è¿žæŽ¥çš„ä¸€äº›é€‰é¡¹ï¼Œå¦‚ä¿æŒè¿žæŽ¥: keep-alive
+    //    Cookie : å®¢æˆ·ç«¯é€šè¿‡è¯¥cookieå‘æœåŠ¡å™¨å¸¦é€æ•°æ®
     //
 
-    // httpÏìÓ¦±¨ÎÄ  ÏìÓ¦ÐÐ ÏìÓ¦Í· ÏìÓ¦Ìå
+    // httpå“åº”æŠ¥æ–‡  å“åº”è¡Œ å“åº”å¤´ å“åº”ä½“
 
-    // ÏìÓ¦ÐÐ Ð­Òé°æ±¾ ×´Ì¬Âë ÃèÊö   http1.1  200 Success
+    // å“åº”è¡Œ åè®®ç‰ˆæœ¬ çŠ¶æ€ç  æè¿°   http1.1  200 Success
 
-    //  Allow => ·þÎñÆ÷Ö§³ÖÄÄÐ©ÇëÇó·½·¨  GET POST
-    //  Content-Encoding => ÎÄµµ±àÂë·½Ê½
-    //  Content-Type => ºóÃæµÄÎÄµµÊÇÊ²Ã´ÀàÐÍµÄ
-    //  Content-Length => ÄÚÈÝ³¤¶È
-    //  Date => µ±Ç°Ê±¼ä
-    //  Refresh => ¸æËßä¯ÀÀÆ÷Ë¢ÐÂÊ±¼ä (µ¥Î»£ºs)
-    //  Transfer-Encoding => ¸æËßä¯ÀÀÆ÷Êý¾ÝµÄ´«ËÍ·½Ê½
+    //  Allow => æœåŠ¡å™¨æ”¯æŒå“ªäº›è¯·æ±‚æ–¹æ³•  GET POST
+    //  Content-Encoding => æ–‡æ¡£ç¼–ç æ–¹å¼
+    //  Content-Type => åŽé¢çš„æ–‡æ¡£æ˜¯ä»€ä¹ˆç±»åž‹çš„
+    //  Content-Length => å†…å®¹é•¿åº¦
+    //  Date => å½“å‰æ—¶é—´
+    //  Refresh => å‘Šè¯‰æµè§ˆå™¨åˆ·æ–°æ—¶é—´ (å•ä½ï¼šs)
+    //  Transfer-Encoding => å‘Šè¯‰æµè§ˆå™¨æ•°æ®çš„ä¼ é€æ–¹å¼
     //
 
-    //  Http ÏìÓ¦×´Ì¬Âë
-    //  101 ÇÐ»»Ð­Òé   ÕâÍæÒâÃ»¼ûµ½¹ý
+    //  Http å“åº”çŠ¶æ€ç 
+    //  101 åˆ‡æ¢åè®®   è¿™çŽ©æ„æ²¡è§åˆ°è¿‡
     //  200 OK nice
-    //  301 ÇëÇóµÄ×ÊÔ´ÒÑ±»ÓÀ¾ÃÖØ¶¨Ïò, ·µ»ØµÄÐÅÏ¢ÖÐ»á°üº¬ÐÂµÄurl£¬ä¯ÀÀÆ÷»á×Ô¶¯¶¨Ïòµ½ÐÂµÄurl
-    //  302 ÁÙÊ±ÒÆ¶¯£¬ÀàËÆ301£¬µ«ÊÇÖ»ÊÇÁÙÊ±µÄ
-    //  400 bad request ¿Í»§¶ËÇëÇóÓï·¨´íÎó£¬·þÎñÆ÷¶ËÎÞ·¨½âÎö
-    //  401 ÐèÒªÈÏÖ¤ÓÃ»§Éí·Ý
+    //  301 è¯·æ±‚çš„èµ„æºå·²è¢«æ°¸ä¹…é‡å®šå‘, è¿”å›žçš„ä¿¡æ¯ä¸­ä¼šåŒ…å«æ–°çš„urlï¼Œæµè§ˆå™¨ä¼šè‡ªåŠ¨å®šå‘åˆ°æ–°çš„url
+    //  302 ä¸´æ—¶ç§»åŠ¨ï¼Œç±»ä¼¼301ï¼Œä½†æ˜¯åªæ˜¯ä¸´æ—¶çš„
+    //  400 bad request å®¢æˆ·ç«¯è¯·æ±‚è¯­æ³•é”™è¯¯ï¼ŒæœåŠ¡å™¨ç«¯æ— æ³•è§£æž
+    //  401 éœ€è¦è®¤è¯ç”¨æˆ·èº«ä»½
     //  402
-    //  403 ¾Ü¾øÖ´ÐÐ
-    //  404 ÕÒ²»µ½×ÊÔ´
-    //  405 ÇëÇó·½·¨±»½ûÖ¹
-    //  500 ·þÎñÆ÷ÄÚ²¿´íÎó
-    //  501 ·þÎñÆ÷²»Ö§³ÖÇëÇó¹¦ÄÜ£¬ÎÞ·¨Íê³ÉÇëÇó
-    //  502 ½ÓÊÕµ½ÎÞÐ§µÄÇëÇó
-    //  503 ·þÎñÆ÷ÔÝÊ±ÎÞ·¨´¦Àí¿Í»§¶ËÇëÇó(ÓÉÓÚÏµÍ³³¬ÔØ»òÎ¬»¤)
-    //  504 ´úÀí·þÎñÆ÷Î´¼°Ê±´ÓÔ¶¶Ë·þÎñÆ÷»ñÈ¡ÇëÇó
-    //  505 ¹ÊÎäÆ÷²»Ö§³ÖÇëÇóµÄhttpÐ­Òé°æ±¾
+    //  403 æ‹’ç»æ‰§è¡Œ
+    //  404 æ‰¾ä¸åˆ°èµ„æº
+    //  405 è¯·æ±‚æ–¹æ³•è¢«ç¦æ­¢
+    //  500 æœåŠ¡å™¨å†…éƒ¨é”™è¯¯
+    //  501 æœåŠ¡å™¨ä¸æ”¯æŒè¯·æ±‚åŠŸèƒ½ï¼Œæ— æ³•å®Œæˆè¯·æ±‚
+    //  502 æŽ¥æ”¶åˆ°æ— æ•ˆçš„è¯·æ±‚
+    //  503 æœåŠ¡å™¨æš‚æ—¶æ— æ³•å¤„ç†å®¢æˆ·ç«¯è¯·æ±‚(ç”±äºŽç³»ç»Ÿè¶…è½½æˆ–ç»´æŠ¤)
+    //  504 ä»£ç†æœåŠ¡å™¨æœªåŠæ—¶ä»Žè¿œç«¯æœåŠ¡å™¨èŽ·å–è¯·æ±‚
+    //  505 æ•…æ­¦å™¨ä¸æ”¯æŒè¯·æ±‚çš„httpåè®®ç‰ˆæœ¬
 
-    // httpºÍhttpsµÄÇø±ð
-    //   httpÃ÷ÎÄ´«Êä£¬Èç¹û½ØÈ¡ÁË±¨ÎÄ¾ÍÄÜÖ±½Ó¿´¶®£¬https°²È«Ì×½Ó×Ö²ã³¬ÎÄ±¾´«ÊäÐ­Òé£¬httpsÔÚhttpµÄ»ù´¡ÉÏÌí¼ÓÁËssl/tlsÐ­Òé£¬
-    //   Ê¹ÓÃÖ¤ÊéÑéÖ¤Éí·Ý£¬²¢¶Ô´«ÊäµÄÊý¾Ý½øÐÐ¼ÓÃÜ
+    // httpå’Œhttpsçš„åŒºåˆ«
+    //   httpæ˜Žæ–‡ä¼ è¾“ï¼Œå¦‚æžœæˆªå–äº†æŠ¥æ–‡å°±èƒ½ç›´æŽ¥çœ‹æ‡‚ï¼Œhttpså®‰å…¨å¥—æŽ¥å­—å±‚è¶…æ–‡æœ¬ä¼ è¾“åè®®ï¼Œhttpsåœ¨httpçš„åŸºç¡€ä¸Šæ·»åŠ äº†ssl/tlsåè®®ï¼Œ
+    //   ä½¿ç”¨è¯ä¹¦éªŒè¯èº«ä»½ï¼Œå¹¶å¯¹ä¼ è¾“çš„æ•°æ®è¿›è¡ŒåŠ å¯†
 
-    // Á¬Á·ÊÖÐ´¸öµ¥ÀýÄ£Ê½
+    // è¿žç»ƒæ‰‹å†™ä¸ªå•ä¾‹æ¨¡å¼
     static private $instance;
 
     private function __clone()
