@@ -9,7 +9,7 @@
 class RedisBase
 {
     /**
-     *
+     * todo https://blog.csdn.net/qq_29373285/article/details/88544299
 
      * redis的list底层实现是：ziplist or linked list or quick list
      * redis的set底层实现：当元素全为整数并且个数少于512时为整数集合，否则为字典
