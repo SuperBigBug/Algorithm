@@ -5,6 +5,8 @@ class Linux
     /**
      * =========================  Linux常用命令 Fuck  ===================================
      *
+     * iftop                            显示网卡的实时流量(ip、端口等信息)    唱吧面试
+     *
      * nohup                            后台运行脚本
      * tar -cvf filename                压缩文件
      * tar -zcvf filename               解压缩文件
