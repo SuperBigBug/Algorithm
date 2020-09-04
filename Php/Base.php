@@ -28,4 +28,13 @@ class Base
     # fpm是多进程模型，由master fork出多个worker子进程完成请求的处理
     # master三种不同进程管理方式: 静态模式、动态模式、按需模式
 
+    /** PHP显示客户端、服务端ip */
+    # $_SERVER['REMOTE_ADDR']
+    # $_SERVER['SERVER_ADDR']
+
+    /** require include */
+    # 在引入一个不存在文件时，include只会产生警告，require会导致一个致命的错误并中断程序
+    # require_once 只引入一次，引入过的就不再引入了
+
+
 }
