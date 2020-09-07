@@ -42,4 +42,22 @@ class Linux
 
      * ===========================  未完待续  =================================
      */
+
+    /**
+     * grep 命令
+     *
+     * 当你只想搜索某个单词时，比如你想搜索的是单词 error ，grep 命令会输出所有包含 error 字符串的行
+     * 即它除了会输出包含 error 单词的行，还会输出包含 errorless 或 antiterrorists 等非 error 单词的行
+     * 解决：
+     * grep -w "error" error.log
+     *
+     * grep命令默认区分大小写
+     * grep -i 'error' /usr/local/log/error.log 不区分大小写查找error
+     *
+     * grep匹配多个字符
+     * grep 'str1\|str2' /log/test.log
+     *
+     *
+     *
+     */
 }
