@@ -8,7 +8,7 @@
  * @author Rogério Vicente
  * @license MIT (see the LICENSE file for details)
  */
-class LRUCache {
+class LruCache {
 
     // object Node representing the head of the list
     private $head;
