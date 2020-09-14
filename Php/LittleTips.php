@@ -27,4 +27,28 @@ class LittleTips
         }
     }
 
+    /**
+     * 哨兵在开发过程中的应用, 性能提升
+     *
+     * @param $target_array @目标数组
+     * @param $arr_size @数组大小
+     * @param $target @目标值
+     * @return int
+     */
+    function sentry($target_array, $arr_size, $target)
+    {
+        if (empty($target_array) || $arr_size < 1) {
+            return -1;
+        }
+
+        $i=0;
+        while($i<$arr_size) {
+            if ($target_array[$i] == $target) {
+                return $i;
+            }
+            $i++;
+        }
+        return -1;
+    }
+
 }
