@@ -44,7 +44,7 @@ class ReverseList
         $cur = $head;
         while ($cur != null) {
             $next = $cur->next;
-            // ��ǰ�ڵ�Ϊ���һ���ڵ�
+            // 当前节点为最后一个节点
             if ($next == null) {
                 $newHead = $cur;
             }
