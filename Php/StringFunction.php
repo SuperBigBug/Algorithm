@@ -14,7 +14,7 @@ class StringFunction
         ltrim('');
         rtrim(' ');
 
-        strlen('test');
+        strlen('Diary');
         substr('  ',0,1);
 
         // 检索目标子串在字符串中出现次数
