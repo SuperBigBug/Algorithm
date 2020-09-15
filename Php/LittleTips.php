@@ -51,4 +51,29 @@ class LittleTips
         return -1;
     }
 
+    // 优化后, 减少$arr_size次的if判断
+    function optimizeSentry($target_array, $arr_size, $target)
+    {
+        if (empty($target_array) || $arr_size < 1) {
+            return -1;
+        }
+
+        if ($target_array[$arr_size-1] == $target) {
+            return $arr_size-1;
+        }
+
+        // 将数组最后一个元素替换成目标元素
+        $target_array[$arr_size-1] = $target;
+
+        $i = 0;
+        while ($target_array[$i] != $target) {
+            $i++;
+        }
+
+        if ($i == $arr_size - 1) {
+            return -1;
+        }
+        return $i;
+    }
+
 }
