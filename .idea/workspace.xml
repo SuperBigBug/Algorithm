@@ -2,6 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="83a9c4ca-f16a-40c6-bcdd-ff1005eee124" name="Default" comment="RabbitMq">
+      <change beforePath="$PROJECT_DIR$/.idea/encodings.xml" afterPath="$PROJECT_DIR$/.idea/encodings.xml" />
       <change beforePath="$PROJECT_DIR$/DataBase/Redis/RedisApplications.php" afterPath="$PROJECT_DIR$/DataBase/Redis/RedisApplications.php" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -23,11 +24,11 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="RedisApplications.php" pinned="false" current-in-tab="true">
+      <file leaf-file-name="RedisApplications.php" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/DataBase/Redis/RedisApplications.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="523">
-              <caret line="39" column="4" lean-forward="false" selection-start-line="39" selection-start-column="4" selection-end-line="39" selection-end-column="4" />
+            <state relative-caret-position="238">
+              <caret line="19" column="34" lean-forward="false" selection-start-line="19" selection-start-column="34" selection-end-line="19" selection-end-column="34" />
               <folding />
             </state>
           </provider>
@@ -38,6 +39,16 @@
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="329">
               <caret line="76" column="9" lean-forward="false" selection-start-line="76" selection-start-column="9" selection-end-line="76" selection-end-column="9" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="MysqlApplication.php" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/DataBase/Mysql/MysqlApplication.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="149">
+              <caret line="28" column="27" lean-forward="true" selection-start-line="28" selection-start-column="27" selection-end-line="28" selection-end-column="27" />
               <folding />
             </state>
           </provider>
@@ -85,6 +96,7 @@
         <option value="/var/folders/x7/jfhqmmx13pv10pry0r4mnq040000gn/T/leetcode/editor/cn/[面试题 02.02]返回倒数第 k 个节点.php" />
         <option value="$PROJECT_DIR$/Php/StringFunction.php" />
         <option value="$PROJECT_DIR$/DataBase/Redis/RedisApplications.php" />
+        <option value="$PROJECT_DIR$/DataBase/Mysql/MysqlApplication.php" />
       </list>
     </option>
   </component>
@@ -102,8 +114,8 @@
   </component>
   <component name="PhpWorkspaceProjectConfiguration" backward_compatibility_performed="true" />
   <component name="ProjectFrameBounds">
-    <option name="x" value="167" />
-    <option name="y" value="24" />
+    <option name="x" value="9" />
+    <option name="y" value="29" />
     <option name="width" value="1185" />
     <option name="height" value="877" />
   </component>
@@ -150,6 +162,12 @@
               <item name="Algorithm" type="b2602c69:ProjectViewProjectNode" />
               <item name="Algorithm" type="2a2b976b:PhpTreeStructureProvider$1" />
               <item name="DataBase" type="2a2b976b:PhpTreeStructureProvider$1" />
+            </path>
+            <path>
+              <item name="Algorithm" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Algorithm" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="DataBase" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="Mysql" type="2a2b976b:PhpTreeStructureProvider$1" />
             </path>
             <path>
               <item name="Algorithm" type="b2602c69:ProjectViewProjectNode" />
@@ -327,10 +345,10 @@
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="68779000" />
+    <option name="totallyTimeSpent" value="71526000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="167" y="24" width="1185" height="877" extended-state="0" />
+    <frame x="9" y="29" width="1185" height="877" extended-state="0" />
     <editor active="true" />
     <layout>
       <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.21472393" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
@@ -441,13 +459,6 @@
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/Sort/BigDataSort.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/Sort/HalfFind.php">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="-50">
@@ -636,14 +647,6 @@
       </provider>
     </entry>
     <entry file="file:///var/folders/x7/jfhqmmx13pv10pry0r4mnq040000gn/T/leetcode/editor/cn/[面试题 02.02]返回倒数第 k 个节点.php" />
-    <entry file="file://$PROJECT_DIR$/DataBase/Mysql/Index.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1677">
-          <caret line="140" column="18" lean-forward="true" selection-start-line="140" selection-start-column="18" selection-end-line="140" selection-end-column="18" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/Php/IssetAndEmpty.php">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="289">
@@ -716,14 +719,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/DataBase/Redis/RedisBase.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="329">
-          <caret line="76" column="9" lean-forward="false" selection-start-line="76" selection-start-column="9" selection-end-line="76" selection-end-column="9" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/Safe/Safe.php">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="119">
@@ -737,10 +732,34 @@
         <state />
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/DataBase/Mysql/Index.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-85">
+          <caret line="117" column="21" lean-forward="true" selection-start-line="117" selection-start-column="21" selection-end-line="117" selection-end-column="21" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/DataBase/Redis/RedisBase.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="329">
+          <caret line="76" column="9" lean-forward="false" selection-start-line="76" selection-start-column="9" selection-end-line="76" selection-end-column="9" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/DataBase/Redis/RedisApplications.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="523">
-          <caret line="39" column="4" lean-forward="false" selection-start-line="39" selection-start-column="4" selection-end-line="39" selection-end-column="4" />
+        <state relative-caret-position="238">
+          <caret line="19" column="34" lean-forward="false" selection-start-line="19" selection-start-column="34" selection-end-line="19" selection-end-column="34" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/DataBase/Mysql/MysqlApplication.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="149">
+          <caret line="28" column="27" lean-forward="true" selection-start-line="28" selection-start-column="27" selection-end-line="28" selection-end-column="27" />
           <folding />
         </state>
       </provider>
