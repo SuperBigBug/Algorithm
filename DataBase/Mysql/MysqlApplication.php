@@ -43,5 +43,38 @@ class MysqlApplication
     // 主库事物线程等待复制结果超时, 会自动提交事务, Mysql会自动降级为异步复制模式, 直到有足够多的从库追上主库
     // 才会恢复半同步复制, 在此期间如果主库宕机, 仍然存在丢失数据风险
 
+    /** 订单表, 越来越大, 怎么搞? */
+    // 别急着分库分表, 可以先来个历史订单归档 将历史的订单拆分到某个表中,(3个月以前的) 订单表中新数据量就降下来了
+    // 历史订单基本不需要做修改操作, 查询操作需要做出相应改动, 如当前订单, 历史三个月的订单, 和这个拆分就感觉比较配套了
+
+    // 流程
+    // 创建历史订单表 、 复制历史订单 、 上线验证 、 验证通过 删除历史订单，定期迁移
+    //                                          验证不通过 回滚
+    // 历史订单表结构 完全等同订订单, 大量的数据迁移尽量放在业务低峰期去迁移, 减少对线上主库的压力
+    /**
+     * create order_temp like order;
+     *
+     * insert into order_temp
+     *      select * from order where create_time > xxxxx
+     *
+     * rename order to order_drop, order_temp to order
+     * drop table order_drop
+     */
+
+
+    /** 删除大量订单表的历史数据怎么删除? */
+    // 1、 delete from order where create_time < XXXXXXXXXXX
+    // 如果数据量过大, 会报错, 不让一次删除过多数据
+
+    // 2、delete from order where create_time < XXXXXXXXXXX limit 1000
+    // 该sql可以执行, 但是每次删除之前会先筛选数据, 排序
+
+    // 3、 优化
+    // select max(id) from order where create_time < XXXXXXXXXXX
+    // delete from order where id < ? limit 1000   Nice！
+
+    /** 搞不定了搞不定了, 分库分表吧 */
+
+
 
 }
