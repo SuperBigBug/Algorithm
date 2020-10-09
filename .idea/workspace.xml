@@ -3,7 +3,7 @@
   <component name="ChangeListManager">
     <list default="true" id="83a9c4ca-f16a-40c6-bcdd-ff1005eee124" name="Default" comment="RabbitMq">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change beforePath="$PROJECT_DIR$/Php/StringFunction.php" afterPath="$PROJECT_DIR$/Php/StringFunction.php" />
+      <change beforePath="$PROJECT_DIR$/DataBase/Redis/RedisApplications.php" afterPath="$PROJECT_DIR$/DataBase/Redis/RedisApplications.php" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -27,8 +27,18 @@
       <file leaf-file-name="RedisApplications.php" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/DataBase/Redis/RedisApplications.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="238">
-              <caret line="19" column="1" lean-forward="true" selection-start-line="19" selection-start-column="1" selection-end-line="19" selection-end-column="1" />
+            <state relative-caret-position="272">
+              <caret line="21" column="4" lean-forward="false" selection-start-line="21" selection-start-column="4" selection-end-line="21" selection-end-column="4" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="RedisBase.php" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/DataBase/Redis/RedisBase.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="329">
+              <caret line="76" column="9" lean-forward="false" selection-start-line="76" selection-start-column="9" selection-end-line="76" selection-end-column="9" />
               <folding />
             </state>
           </provider>
@@ -93,8 +103,8 @@
   </component>
   <component name="PhpWorkspaceProjectConfiguration" backward_compatibility_performed="true" />
   <component name="ProjectFrameBounds">
-    <option name="x" value="91" />
-    <option name="y" value="23" />
+    <option name="x" value="283" />
+    <option name="y" value="68" />
     <option name="width" value="1185" />
     <option name="height" value="877" />
   </component>
@@ -318,10 +328,10 @@
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="67077000" />
+    <option name="totallyTimeSpent" value="67314000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="91" y="23" width="1185" height="877" extended-state="0" />
+    <frame x="283" y="68" width="1185" height="877" extended-state="0" />
     <editor active="true" />
     <layout>
       <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.21472393" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
@@ -432,13 +442,6 @@
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/Mq/Kafka.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="85">
-          <caret line="5" column="1" lean-forward="true" selection-start-line="5" selection-start-column="1" selection-end-line="5" selection-end-column="1" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/Sort/Sort.php">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="584">
@@ -721,6 +724,14 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/DataBase/Redis/RedisBase.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="329">
+          <caret line="76" column="9" lean-forward="false" selection-start-line="76" selection-start-column="9" selection-end-line="76" selection-end-column="9" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/Safe/Safe.php">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="119">
@@ -731,8 +742,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/DataBase/Redis/RedisApplications.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="238">
-          <caret line="19" column="1" lean-forward="true" selection-start-line="19" selection-start-column="1" selection-end-line="19" selection-end-column="1" />
+        <state relative-caret-position="272">
+          <caret line="21" column="4" lean-forward="false" selection-start-line="21" selection-start-column="4" selection-end-line="21" selection-end-column="4" />
           <folding />
         </state>
       </provider>
