@@ -26,7 +26,7 @@
  * }
  */
 
-class Leetcode21
+class LeetCode21
 {
     function resolve($l1, $l2)
     {
