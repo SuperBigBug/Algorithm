@@ -2,7 +2,6 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="83a9c4ca-f16a-40c6-bcdd-ff1005eee124" name="Default" comment="RabbitMq">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
       <change beforePath="$PROJECT_DIR$/Sort/HalfFind.php" afterPath="$PROJECT_DIR$/Sort/HalfFind.php" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -37,8 +36,8 @@
       <file leaf-file-name="HalfFind.php" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/Sort/HalfFind.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="510">
-              <caret line="35" column="5" lean-forward="true" selection-start-line="10" selection-start-column="4" selection-end-line="35" selection-end-column="5" />
+            <state relative-caret-position="227">
+              <caret line="32" column="66" lean-forward="false" selection-start-line="32" selection-start-column="66" selection-end-line="32" selection-end-column="66" />
               <folding />
             </state>
           </provider>
@@ -113,8 +112,8 @@
   </component>
   <component name="PhpWorkspaceProjectConfiguration" backward_compatibility_performed="true" />
   <component name="ProjectFrameBounds">
-    <option name="x" value="265" />
-    <option name="y" value="45" />
+    <option name="x" value="181" />
+    <option name="y" value="23" />
     <option name="width" value="1185" />
     <option name="height" value="877" />
   </component>
@@ -332,10 +331,10 @@
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="89059000" />
+    <option name="totallyTimeSpent" value="89471000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="265" y="45" width="1185" height="877" extended-state="0" />
+    <frame x="181" y="23" width="1185" height="877" extended-state="0" />
     <editor active="true" />
     <layout>
       <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.21472393" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
@@ -731,8 +730,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/Sort/HalfFind.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="510">
-          <caret line="35" column="5" lean-forward="true" selection-start-line="10" selection-start-column="4" selection-end-line="35" selection-end-column="5" />
+        <state relative-caret-position="227">
+          <caret line="32" column="66" lean-forward="false" selection-start-line="32" selection-start-column="66" selection-end-line="32" selection-end-column="66" />
           <folding />
         </state>
       </provider>
