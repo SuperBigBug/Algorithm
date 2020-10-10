@@ -52,6 +52,7 @@
 
 
 //leetcode submit region begin(Prohibit modification and deletion)
+
 class LeetCode27 {
 
     /**
@@ -62,7 +63,7 @@ class LeetCode27 {
     function removeElement(&$nums, $val) {
         $fast = $slow = 0;
         $length = count($nums);
-        if ($nums < 1) {
+        if ($length < 1) {
             return false;
         }
         while ($fast < $length) {
