@@ -70,5 +70,24 @@ class LeetCode26 {
         }
         return $slow+1;
     }
+
+    // 同上, 数据结构变为单链表
+    function removeDuplicatesList($head) {
+        if ($head == null) {
+            return $head;
+        }
+        $fast = $slow = $head;
+        while ($fast->next != null) {
+            if ($fast != $slow) {
+                $slow->next = $fast;
+                $slow = $slow->next;
+            }
+            $fast = $fast->next;
+        }
+        // 断开slow后面的元素
+        $slow->next = null;
+        return $head;
+
+    }
 }
 //leetcode submit region end(Prohibit modification and deletion)
