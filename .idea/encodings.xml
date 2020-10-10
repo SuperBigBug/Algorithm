@@ -1,6 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="Encoding">
+    <file url="file://$PROJECT_DIR$/DataBase/Mysql/MysqlApplication.php" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/DataBase/Redis/Lru.php" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/DataStructureAndAlgorithm/LruCache.php" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/DesignPatterns/Factory.php" charset="UTF-8" />
@@ -8,6 +9,12 @@
     <file url="file://$PROJECT_DIR$/DesignPatterns/Singleton.php" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/Http/DNS.php" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/InterviewTitle.php" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/Leetcode/LeetCode19.php" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/Leetcode/LeetCode21.php" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/Leetcode/LeetCode26.php" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/Leetcode/LeetCode283.php" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/Leetcode/MinDepth.php" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/Leetcode/ReverseList.php" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/Linux/Top.php" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/ListNode/DeleteDuplicates.php" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/ListNode/DeleteNode.php" charset="UTF-8" />

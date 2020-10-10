@@ -39,7 +39,7 @@ class Singleton
 
     public function test()
     {
-        echo 'test';
+        echo 'Diary';
     }
 }
 

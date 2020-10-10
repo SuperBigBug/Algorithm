@@ -14,7 +14,8 @@ class StringFunction
         ltrim('');
         rtrim(' ');
 
-        strlen('test');
+        strlen('Diary');
+        // 返回指定位置开始的制定长度的字符串
         substr('  ',0,1);
 
         // 检索目标子串在字符串中出现次数
