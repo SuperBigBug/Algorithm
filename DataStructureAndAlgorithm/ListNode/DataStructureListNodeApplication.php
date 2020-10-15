@@ -55,4 +55,27 @@ class DataStructureListNodeApplication
         $head->next = null;
         return $res;
     }
+
+
+    public function mergeTwoLists(SingleLinkedList $list1, SingleLinkedList $list2)
+    {
+
+    }
+
+    // 链表中环路检测
+    public function checkCircle()
+    {
+
+    }
+
+    public function deleteN()
+    {
+
+    }
+    // 获取中间节点
+    public function getMiddleNode()
+    {
+        
+    }
+
 }
