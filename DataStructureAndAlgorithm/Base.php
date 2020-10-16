@@ -1,13 +1,14 @@
 <?php
-/**
- * Created by PhpStorm.
- * User: zhongyu
- * Date: 2020/10/14
- * Time: 4:43 PM
- */
 
 namespace App\DataStructureAndAlgorithm;
 
+
+/**
+ * @desc 10.14日起 开始学习数据结构与算法之美
+ *
+ * Class Base
+ * @package App\DataStructureAndAlgorithm
+ */
 class Base
 {
     /** 十个基本数据结构 && 十个算法*/
