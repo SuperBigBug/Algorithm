@@ -42,6 +42,7 @@ class DataStructureListNodeApplication
 
     /**
      * @desc 递归
+     *
      * @param SingleLinkListNode $head
      * @return SingleLinkListNode
      */
@@ -56,26 +57,119 @@ class DataStructureListNodeApplication
         return $res;
     }
 
-
-    public function mergeTwoLists(SingleLinkedList $list1, SingleLinkedList $list2)
+    /**
+     * @desc 合并两个有序链表
+     *
+     * @param SingleLinkListNode $l1
+     * @param SingleLinkListNode $l2
+     * @return null
+     */
+    public function mergeTwoLists(SingleLinkListNode $l1, SingleLinkListNode $l2)
     {
+        // 合并后新链表的哨兵节点
+        $newHead = new SingleLinkListNode(0);
 
+        // 游标指针
+        $cur = $newHead;
+
+        while ($l1 && $l2) {
+            if ($l1->data > $l2->data) {
+                $cur->next = $l1;
+                $l1 = $l1->next;
+            } else {
+                $cur->next = $l2;
+                $l2 = $l2->next;
+            }
+            // 当前指针后羿
+            $cur = $cur->next;
+        }
+
+        // 链表长度不一样, 拼接剩下部分
+        if ($l1) {
+            $cur->next = $l1;
+        }
+        if ($l2) {
+            $cur->next = $l2;
+        }
+        return $newHead->next;
     }
 
-    // 链表中环路检测
     public function checkCircle()
     {
 
     }
 
-    public function deleteN()
+    /**
+     * @desc 删除链表的倒数第n个节点, n保证是有效的
+     *
+     * @param SingleLinkListNode $head
+     * @param $n
+     * @return SingleLinkListNode|bool|null
+     */
+    public function delN(SingleLinkListNode $head, $n)
     {
+        if ($head == null || $n < 1) {
+            return false;
+        }
 
+        // 哨兵节点, 边界问题, 第一个节点 & 最后一个节点
+        $newNode = New SingleLinkListNode(0);
+        $newNode->next = $head;
+
+        $fast  = $slow = $newNode;
+        for ($i=0; $i<$n; $i++) {
+            $fast = $fast->next;
+        }
+        while ($fast->next != null) {
+            $fast = $fast->next;
+            $slow = $slow->next;
+        }
+        // 找到待删除节点的前驱节点, 删除之
+        $slow->next = $slow->next->next;
+        return $newNode->next;
     }
-    // 获取中间节点
-    public function getMiddleNode()
+
+    /**
+     * @desc 获取链表倒数第n个节点
+     *
+     * @param SingleLinkListNode $head
+     * @param $n
+     * @return SingleLinkListNode|bool|null
+     */
+    public function getN(SingleLinkListNode $head, $n)
     {
-        
+        if ($head == null || $n < 1) {
+            return false;
+        }
+
+        $fast = $slow = $head;
+        for ($i=0; $i<$n-1; $i++){
+            $fast = $fast->next;
+        }
+        while ($fast->next != null) {
+            $fast = $fast->next;
+            $slow = $slow->next;
+        }
+        return $slow;
+    }
+
+    /**
+     * @desc 获取链表的中间节点 快慢指针 && 先计算链表长度length, 然后获取 length/2 节点
+     *
+     * @param SingleLinkListNode $head
+     * @return SingleLinkListNode|null
+     */
+    public function getMiddleNode(SingleLinkListNode $head)
+    {
+        if ($head == null) {
+            return $head;
+        }
+        $fast = $slow = $head;
+        while ($fast->next != null) {
+            $fast = $fast->next->next;
+            $slow = $slow->next;
+        }
+        return $slow;
     }
 
 }
