@@ -18,6 +18,11 @@ class RecursionBase
         $stars = 100;
         $result = (new LeetCode70())->solve($stars);
 
+
+        /** 调试递归*/
+
+        # 1.打印日志发现，递归值。
+        # 2.结合条件断点进行调试。
     }
 
 
