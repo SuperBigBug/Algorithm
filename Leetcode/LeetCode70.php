@@ -33,12 +33,19 @@ namespace App\Leetcode;
 
 class LeetCode70
 {
-    function solve($n)
+    function solve($n, &$arr)
     {
+
         if ($n == 1 || $n == 2) {
             return $n;
         }
-        return $this->solve($n-1) + $this->solve($n-2);
+        if (isset($arr[$n])) {
+            return $arr[$n];
+        }
+
+        $res = $this->solve($n-1, $arr) + $this->solve($n-2, $arr);
+        $arr[$n] = $res;
+        return $res;
     }
 
     function solveAnother($n)

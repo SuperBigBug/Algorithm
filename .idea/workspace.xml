@@ -2,11 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="83a9c4ca-f16a-40c6-bcdd-ff1005eee124" name="Default" comment="RabbitMq">
-      <change beforePath="" afterPath="$PROJECT_DIR$/DataStructureAndAlgorithm/Recursion/RecursionBase.php" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/Leetcode/LeetCode70.php" />
-      <change beforePath="$PROJECT_DIR$/.idea/encodings.xml" afterPath="$PROJECT_DIR$/.idea/encodings.xml" />
-      <change beforePath="$PROJECT_DIR$/.idea/leetcode/editor.xml" afterPath="$PROJECT_DIR$/.idea/leetcode/editor.xml" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+      <change beforePath="$PROJECT_DIR$/Leetcode/LeetCode70.php" afterPath="$PROJECT_DIR$/Leetcode/LeetCode70.php" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -47,21 +44,11 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="[70]爬楼梯.php" pinned="false" current-in-tab="true">
-        <entry file="file:///var/folders/x7/jfhqmmx13pv10pry0r4mnq040000gn/T/leetcode/editor/cn/[70]爬楼梯.php">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="264">
-              <caret line="31" column="24" lean-forward="true" selection-start-line="31" selection-start-column="24" selection-end-line="31" selection-end-column="24" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="LeetCode70.php" pinned="false" current-in-tab="false">
+      <file leaf-file-name="LeetCode70.php" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/Leetcode/LeetCode70.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="411">
-              <caret line="41" column="5" lean-forward="true" selection-start-line="35" selection-start-column="4" selection-end-line="41" selection-end-column="5" />
+            <state relative-caret-position="405">
+              <caret line="51" column="5" lean-forward="true" selection-start-line="51" selection-start-column="5" selection-end-line="51" selection-end-column="5" />
               <folding />
             </state>
           </provider>
@@ -177,9 +164,9 @@
         <option value="$PROJECT_DIR$/Leetcode/LeetCode20.php" />
         <option value="/var/folders/x7/jfhqmmx13pv10pry0r4mnq040000gn/T/leetcode/editor/cn/[20]有效的括号.php" />
         <option value="$PROJECT_DIR$/DataStructureAndAlgorithm/Stack/StackBase.php" />
-        <option value="$PROJECT_DIR$/Leetcode/LeetCode70.php" />
         <option value="$PROJECT_DIR$/DataStructureAndAlgorithm/Recursion/RecursionBase.php" />
         <option value="/var/folders/x7/jfhqmmx13pv10pry0r4mnq040000gn/T/leetcode/editor/cn/[70]爬楼梯.php" />
+        <option value="$PROJECT_DIR$/Leetcode/LeetCode70.php" />
       </list>
     </option>
   </component>
@@ -196,7 +183,7 @@
     <sorting>DEFINITION_ORDER</sorting>
   </component>
   <component name="PhpWorkspaceProjectConfiguration" backward_compatibility_performed="true" />
-  <component name="ProjectFrameBounds" extendedState="1">
+  <component name="ProjectFrameBounds">
     <option name="x" value="48" />
     <option name="y" value="28" />
     <option name="width" value="1202" />
@@ -338,7 +325,7 @@
       <workItem from="1600064827050" duration="5713000" />
       <workItem from="1600138328862" duration="10807000" />
       <workItem from="1602334489464" duration="6328000" />
-      <workItem from="1602816229116" duration="17547000" />
+      <workItem from="1602816229116" duration="18217000" />
     </task>
     <task id="LOCAL-00001" summary="完善mysql">
       <created>1597416381115</created>
@@ -428,19 +415,20 @@
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="128264000" />
+    <option name="totallyTimeSpent" value="128934000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="48" y="28" width="1202" height="760" extended-state="1" />
+    <frame x="48" y="28" width="1202" height="760" extended-state="0" />
+    <editor active="true" />
     <layout>
-      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.19861831" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.19861831" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="12" side_tool="false" content_ui="tabs" />
       <window_info id="Docker" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="false" weight="0.33" sideWeight="0.5" order="16" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.23017903" sideWeight="0.5030675" order="13" side_tool="true" content_ui="tabs" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
       <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="14" side_tool="false" content_ui="tabs" />
-      <window_info id="leetcode" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.21157168" sideWeight="0.5" order="4" side_tool="true" content_ui="tabs" />
+      <window_info id="leetcode" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.21157168" sideWeight="0.5" order="4" side_tool="true" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.13533835" sideWeight="0.4969325" order="15" side_tool="false" content_ui="tabs" />
       <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
@@ -866,18 +854,18 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Leetcode/LeetCode70.php">
+    <entry file="file:///var/folders/x7/jfhqmmx13pv10pry0r4mnq040000gn/T/leetcode/editor/cn/[70]爬楼梯.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="411">
-          <caret line="41" column="5" lean-forward="true" selection-start-line="35" selection-start-column="4" selection-end-line="41" selection-end-column="5" />
+        <state relative-caret-position="349">
+          <caret line="36" column="21" lean-forward="true" selection-start-line="36" selection-start-column="21" selection-end-line="36" selection-end-column="21" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file:///var/folders/x7/jfhqmmx13pv10pry0r4mnq040000gn/T/leetcode/editor/cn/[70]爬楼梯.php">
+    <entry file="file://$PROJECT_DIR$/Leetcode/LeetCode70.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="264">
-          <caret line="31" column="24" lean-forward="true" selection-start-line="31" selection-start-column="24" selection-end-line="31" selection-end-column="24" />
+        <state relative-caret-position="405">
+          <caret line="51" column="5" lean-forward="true" selection-start-line="51" selection-start-column="5" selection-end-line="51" selection-end-column="5" />
           <folding />
         </state>
       </provider>
