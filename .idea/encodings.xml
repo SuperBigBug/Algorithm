@@ -3,6 +3,7 @@
   <component name="Encoding">
     <file url="file://$PROJECT_DIR$/DataBase/Mysql/MysqlApplication.php" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/DataBase/Redis/Lru.php" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/DataBase/Redis/RedisDataStruct.php" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/DataStructureAndAlgorithm/Base.php" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/DataStructureAndAlgorithm/ListNode/DataStructureListNodeApplication.php" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/DataStructureAndAlgorithm/ListNode/SingleLinkListNode.php" charset="UTF-8" />
